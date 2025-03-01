@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.1)  1 MAR 2025 09:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.3.1)  1 MAR 2025 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,7 +850,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-No file Informe.aux.
+(Informe.aux)
 \openout1 = `Informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -902,6 +902,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 47.
+ (Informe.out) (Informe.out)
 \@outlinefile=\write4
 \openout4 = `Informe.out'.
 
@@ -982,7 +983,7 @@ Package biblatex Info: Reference segment=0 on input line 47.
 \c@lstlisting=\count487
 (configuraciones/post_begin_document.tex
 (configuraciones/referencias_cruzadas.tex)
-<./logos/UPV_Campus_Alcoi.png, id=3, 659.5842pt x 290.0436pt>
+<./logos/UPV_Campus_Alcoi.png, id=79, 659.5842pt x 290.0436pt>
 File: ./logos/UPV_Campus_Alcoi.png Graphic file (type png)
 <use ./logos/UPV_Campus_Alcoi.png>
 Package pdftex.def Info: ./logos/UPV_Campus_Alcoi.png  used on input line 13.
@@ -992,19 +993,17 @@ Package pdftex.def Info: ./logos/UPV_Campus_Alcoi.png  used on input line 13.
 [1
 
 {C:/Users/carlo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/UPV_
-Campus_Alcoi.png>]
-No file Informe.toc.
+Campus_Alcoi.png>] (Informe.toc)
 \tf@toc=\write5
 \openout5 = `Informe.toc'.
 
 
 
-[1]
-No file Informe.lof.
+[1] (Informe.lof)
 \tf@lof=\write6
 \openout6 = `Informe.lof'.
 
-No file Informe.lot.
+ (Informe.lot)
 \tf@lot=\write7
 \openout7 = `Informe.lot'.
 
@@ -1013,23 +1012,6 @@ No file Informe.lot.
 [2
 
 ])
-
-LaTeX Warning: Reference `sec:estructura' on page 1 undefined on input line 80.
-
-
-
-LaTeX Warning: Reference `sec:redaccion' on page 1 undefined on input line 80.
-
-
-LaTeX Warning: Reference `sec:contenido' on page 1 undefined on input line 80.
-
-
-LaTeX Warning: Reference `sec:ejemplos' on page 1 undefined on input line 80.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 110.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1041,119 +1023,45 @@ l.110
 
 ]
 
-LaTeX Warning: Reference `sec:estructura:bibliografia' on page 2 undefined on i
-nput line 123.
-
-
-LaTeX Warning: Reference `sec:estructura:bibliografia' on page 2 undefined on i
-nput line 123.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 143.
-
 [2]
-
-LaTeX Warning: Reference `sec:estructura:bibliografia' on page 3 undefined on i
-nput line 160.
-
-
-LaTeX Warning: Reference `sec:estructura:bibliografia' on page 3 undefined on i
-nput line 160.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 180.
 
 [3]
 
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 229.
-
 [4]
-
-LaTeX Warning: Reference `fig:control_PID' on page 5 undefined on input line 24
-6.
-
-
-LaTeX Warning: Reference `sec:ejemplos:ecuaciones' on page 5 undefined on input
- line 261.
-
-
-LaTeX Warning: Reference `sec:ejemplos:ecuaciones' on page 5 undefined on input
- line 261.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 271.
 
 [5]
 
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 330.
-
 [6]
-
-LaTeX Warning: Reference `fig:mapa:respuesta' on page 7 undefined on input line
- 332.
-
-
-LaTeX Warning: Reference `fig:control_PID' on page 7 undefined on input line 33
-2.
-
-<./figuras/caracteritzaSegonOrdreZeta.pdf, id=132, 902.37125pt x 375.4025pt>
+<./figuras/caracteritzaSegonOrdreZeta.pdf, id=237, 902.37125pt x 375.4025pt>
 File: ./figuras/caracteritzaSegonOrdreZeta.pdf Graphic file (type pdf)
 <use ./figuras/caracteritzaSegonOrdreZeta.pdf>
 Package pdftex.def Info: ./figuras/caracteritzaSegonOrdreZeta.pdf  used on inpu
 t line 337.
 (pdftex.def)             Requested size: 455.24411pt x 189.3906pt.
-<./figuras/control_PID.png, id=133, 1745.52126pt x 1258.7025pt>
+<./figuras/control_PID.png, id=238, 1745.52126pt x 1258.7025pt>
 File: ./figuras/control_PID.png Graphic file (type png)
 <use ./figuras/control_PID.png>
 Package pdftex.def Info: ./figuras/control_PID.png  used on input line 345.
 (pdftex.def)             Requested size: 284.52756pt x 205.16093pt.
 
-LaTeX Warning: Reference `fig:ldr-1' on page 7 undefined on input line 351.
-
-
-LaTeX Warning: Reference `fig:ldr-2' on page 7 undefined on input line 351.
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 352.
 
 [7 <./figuras/caracteritzaSegonOrdreZeta.pdf> <./figuras/control_PID.png>]
-<./figuras/rl_sc2.png, id=152, 2053.6725pt x 1665.22125pt>
+<./figuras/rl_sc2.png, id=255, 2053.6725pt x 1665.22125pt>
 File: ./figuras/rl_sc2.png Graphic file (type png)
 <use ./figuras/rl_sc2.png>
 Package pdftex.def Info: ./figuras/rl_sc2.png  used on input line 359.
 (pdftex.def)             Requested size: 211.68684pt x 171.63913pt.
-<./figuras/rl_c.png, id=153, 2053.6725pt x 1665.22125pt>
+<./figuras/rl_c.png, id=256, 2053.6725pt x 1665.22125pt>
 File: ./figuras/rl_c.png Graphic file (type png)
 <use ./figuras/rl_c.png>
 Package pdftex.def Info: ./figuras/rl_c.png  used on input line 365.
 (pdftex.def)             Requested size: 211.68684pt x 171.63913pt.
 
 
-LaTeX Warning: Reference `tab:polos_SSO' on page 8 undefined on input line 368.
-
-
-
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 450.
-
 [8 <./figuras/rl_sc2.png> <./figuras/rl_c.png>]
-
-LaTeX Warning: Reference `lst:EjemploMatlab' on page 9 undefined on input line 
-459.
-
 Package hyperref Info: bookmark level for unknown listado defaults to 0 on inpu
 t line 462.
+
 
 LaTeX Warning: Citation 'aastrom1973self' on page 9 undefined on input line 488
 .
@@ -1187,9 +1095,6 @@ LaTeX Warning: Empty bibliography on input line 499.
 
 
 
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 505.
-
 [9] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (Informe.aux)
@@ -1201,20 +1106,8 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Informe.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Informe.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  CD4AD9651B7E51FCEE8FCBDCFFACE8D4;2993.
-
-Package lastpage Warning: Rerun to get the references right on input line 505.
-
+Package rerunfilecheck Info: File `Informe.out' has not changed.
+(rerunfilecheck)             Checksum: CD4AD9651B7E51FCEE8FCBDCFFACE8D4;2993.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Informe
@@ -1225,11 +1118,11 @@ Package logreq Info: Writing requests to 'Informe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29218 strings out of 473522
- 562171 string characters out of 5714610
- 1479576 words of memory out of 5000000
- 52036 multiletter control sequences out of 15000+600000
- 569269 words of font info for 72 fonts, out of 8000000 for 9000
+ 29262 strings out of 473522
+ 563342 string characters out of 5714610
+ 1481807 words of memory out of 5000000
+ 52065 multiletter control sequences out of 15000+600000
+ 570107 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,13n,84p,1202b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\carlo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
@@ -1243,20 +1136,22 @@ ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/carlo/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
 rs/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 ><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmib10.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/carlo/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/carlo/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/carlo/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/c
-arlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
-:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
-9.pfb>
-Output written on Informe.pdf (12 pages, 1224592 bytes).
+mmi9.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmib10.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/carlo/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/carlo/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/carlo/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/car
+lo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/U
+sers/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
+pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb><C:/Users/carlo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmtt9.pfb>
+Output written on Informe.pdf (12 pages, 1274462 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
+ 402 PDF objects out of 1000 (max. 8388607)
  109 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
