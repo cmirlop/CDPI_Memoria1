@@ -4,26 +4,26 @@
 \contentsline {section}{\numberline {2}Metodología}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Ensayo de lazo abierto}{1}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Cálculo de parámetros}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Pruebas en Mathlab}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Ensayo de lazo cerrado}{2}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Resultados}{2}{section.3}%
-\contentsline {section}{\numberline {4}Conclusiones y futuros trabajos}{2}{section.4}%
-\contentsline {section}{\numberline {5}Bibliografía}{2}{section.5}%
-\contentsline {section}{\numberline {6}Introducción}{2}{section.6}%
+\contentsline {subsection}{\numberline {2.3}Pruebas en Mathlab}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Ensayo de lazo cerrado}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Resultados}{3}{section.3}%
+\contentsline {section}{\numberline {4}Conclusiones y futuros trabajos}{3}{section.4}%
+\contentsline {section}{\numberline {5}Bibliografía}{3}{section.5}%
+\contentsline {section}{\numberline {6}Introducción}{3}{section.6}%
 \contentsline {section}{\numberline {7}Estructura del informe}{3}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Resumen y palabras clave}{3}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Introducción}{3}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Metodología}{4}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Resultados obtenidos}{4}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Conclusiones y futuros trabajos}{4}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Bibliografía}{4}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.1}Resumen y palabras clave}{4}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Introducción}{4}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Metodología}{5}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Resultados obtenidos}{5}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Conclusiones y futuros trabajos}{5}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Bibliografía}{5}{subsection.7.6}%
 \contentsline {section}{\numberline {8}Cómo afrontar la redacción del informe}{5}{section.8}%
-\contentsline {section}{\numberline {9}Contenido del informe}{5}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Consideraciones generales}{5}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Figuras y tablas}{6}{subsection.9.2}%
+\contentsline {section}{\numberline {9}Contenido del informe}{6}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Consideraciones generales}{6}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Figuras y tablas}{7}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}Expresiones matemáticas y ecuaciones}{7}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Ejemplos}{8}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Figuras, tablas y referencias cruzadas}{8}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Ecuaciones}{9}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Código}{10}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Referencias bibliográficas}{10}{subsection.10.4}%
+\contentsline {section}{\numberline {10}Ejemplos}{9}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Figuras, tablas y referencias cruzadas}{9}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Ecuaciones}{10}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Código}{11}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Referencias bibliográficas}{11}{subsection.10.4}%

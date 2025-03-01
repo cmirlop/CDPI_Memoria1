@@ -79,33 +79,82 @@ Este documento también se puede utilizar como plantilla ya que los formatos son
 \section{Metodología}
 
 \subsection{Ensayo de lazo abierto}
-Para iniciar nuestro trabajo, hemos realizado un ensayo en abierto, el cual es un ensayo donde se envía una referencia al dispositivo, y este trata de alcanzarla, una vez alcanzada se reducirá e irá oscilando por encima y por debajo, ya que no tiene realimentación de cuanto falta por alcanzar la referencia.
+Para iniciar nuestro trabajo, hemos realizado un ensayo en abierto, el cual es un ensayo donde se envía una señal de control, y no tenemos realimentación, 
 Para esto hemos utilizado un script de Mathlab (INTRODUCIR BIOGRAFIA SCRIP), el cual nos simulaba un tanque de temperatura, en el cual la temperatura inicial es de 90ºC, después introducimos una nueva referencia a 130ºC , y una vez conseguimos que se estabilice en esa temperatura, de la gráfica extraemos los siguientes valores:
 \begin{itemize}
-    \item $\Delta y$ : Aumento de la temperatura desde que le introducimos la nueva señal de control hasta que se estabiliza la temperatura.
+    \item $\Delta y$ : Aumento de la temperatura desde que le introducimos la nueva señal de control hasta que se estabiliza la temperatura, en nuestro caso ese aumento es de 40ºC.
 
-    \item $\Delta u$ : Diferencia de señal de control, de la que estaba actuando a la actual.
+    \item $y_{0}$ : Temperatura inicial de la curva, en nuestro caso en el ensayo abierto la temperatura inicial es de 90ºC.
 
+    \item $y_{\infty}$ : Temperatura final de la curva cuando aplicamos la nueva señal de control, en el caso de nuestro ensayo en abierto es de 130ºC.
+
+    \item $\Delta u$ : Diferencia de señal de control, de la que estaba actuando a la actual, en nuestro caso pasamos de 30\% a 50\%, por lo que el valor del incremento es 20\%.
+
+    \item $t_{0}$ : Instante de tiempo en el que introducimos la nueva señal de control, en nuestro caso es 50s
+    
     \item $t_{28}$ : Este valor hace referencia al tiempo que ha necesitado para alcanzar el 28\% del $\Delta y$.
     Para calcular este valor hemos realizado los siguientes cálculos:\\
-    $$ y_{28} = \Delta y \cdot  0.28 + y_{0}  $$
+
+    \begin{center}
+        $y_{28} = \Delta y \cdot  0.28 + y_{0} = 40 \cdot 0.28 + 90 = 11.2 + 90 = 101.2$ºC
+    \end{center}
+     
 
     Nos dirigimos a la gráfica para buscar el valor $y_{28}$ y nos fijamos en el valor de tiempo en el que se alcanza $y_{28}$ y calculamos $t_{28}$
 
-    $$ t_{28} = \Delta t_{28} - t_{0}$$
+    $$ t_{28} = \Delta t_{28} - t_{0} = 54.2 - 50 = 4.2s $$
 
     \item $t_{63}$ : Este valor hace referencia al tiempo que ha necesitado para alcanzar el 63\% del $\Delta y$
+
+    Para calcular este valor hemos realizado los siguientes cálculos:\\
+    \begin{center}
+        $ y_{63} = \Delta y \cdot  0.63 + y_{0} = 40 \cdot 0.63 + 90 = 25.2 + 90 = 115.2$ºC
+    \end{center}
+     
+
+    Nos dirigimos a la gráfica para buscar el valor $y_{63}$ y nos fijamos en el valor de tiempo en el que se alcanza $y_{63}$ y calculamos $t_{63}$
+
+    $$ t_{63} = \Delta t_{63} - t_{0} = 57.7 - 50 = 7.7s $$
 \end{itemize}
 
+Con estos valores obtenidos de la gráfica, pasamos a calcular los siguientes valores:
+
+\begin{itemize}
+    \item Ganancia estática $K_{ep}$ : La cual hace referencia a la ganancia por unidad de incremento de la señal de control.
+    La cual se calcula de la siguiente forma:
+    \begin{center}
+        $K_{ep} = \frac{\Delta y}{\Delta u} = \frac{y_{\infty} - y_{0}}{\Delta u} = \frac{130 - 90}{20} = 2$
+    \end{center}
+    
+    \item Valor T : Que se calcula de la siguiente manera.
+    \begin{center}
+        $T = 1.5 \cdot (t_{63} - t_{28}) = 1.5 \cdot (7.7 - 4.2) = 5.25s$
+    \end{center}
+
+
+    \item Valor L : Que se calcula de la siguiente manera. 
+    \begin{center}
+        $L = t_{63} - T = 7.7 - 5.25 = 2.45s$
+    \end{center}
+
+    
+\end{itemize}
 
 
 \subsection{Cálculo de parámetros}
     \begin{itemize} 
         \item Ziegler–Nichols PID \\
-        
+            $$K = \frac{1.2}{K_ep} \cdot \frac{T}{L}$$
+            $$T_i = 2L$$
+            $$T_d = 0.5L$$
+            
+            
         \item Ziegler–Nichols PI \\
-        
+            
         \item Cohen–Coon PID
+            $$K = \frac{1}{K_ep} \cdot \frac{T}{L} \left[\frac{4}{3} +\frac{1}{4} \cdot \frac{L}{T}\right]$$
+            $$T_i = 2L$$
+            $$T_d = 0.5L$$ 
     \end{itemize}
 
 \subsection{Pruebas en Mathlab}
