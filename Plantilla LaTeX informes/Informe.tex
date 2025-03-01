@@ -13,7 +13,7 @@
 
 \newcommand{\AlumnoA}{Carlos Mira López}
 \newcommand{\AlumnoB}{Nicolás Miró Mira}
-\newcommand{\AlumnoC}{Vittorio Alessandro Esposito}
+\newcommand{\AlumnoC}{Vittorio Alessandro Esposito Ceballos}
 
 \newcommand{\AlumnosPie}{\AlumnoA\ -- \AlumnoB\ -- \AlumnoC}
 \newcommand{\Asignatura}{Control Discreto Procesos Industriales}
@@ -70,8 +70,6 @@ Este documento también se puede utilizar como plantilla ya que los formatos son
 \textbf{Palabras clave}: informe científico-técnico; plantilla; \LaTeX, Overleaf.
 
 
-
-
 \section*{Resumen}
 
 
@@ -79,6 +77,54 @@ Este documento también se puede utilizar como plantilla ya que los formatos son
 
 
 \section{Metodología}
+
+\subsection{Ensayo de lazo abierto}
+Para iniciar nuestro trabajo, hemos realizado un ensayo en abierto, el cual es un ensayo donde se envía una referencia al dispositivo, y este trata de alcanzarla, una vez alcanzada se reducirá e irá oscilando por encima y por debajo, ya que no tiene realimentación de cuanto falta por alcanzar la referencia.
+Para esto hemos utilizado un script de Mathlab (INTRODUCIR BIOGRAFIA SCRIP), el cual nos simulaba un tanque de temperatura, en el cual la temperatura inicial es de 90ºC, después introducimos una nueva referencia a 130ºC , y una vez conseguimos que se estabilice en esa temperatura, de la gráfica extraemos los siguientes valores:
+\begin{itemize}
+    \item $\Delta y$ : Aumento de la temperatura desde que le introducimos la nueva señal de control hasta que se estabiliza la temperatura.
+
+    \item $\Delta u$ : Diferencia de señal de control, de la que estaba actuando a la actual.
+
+    \item $t_{28}$ : Este valor hace referencia al tiempo que ha necesitado para alcanzar el 28\% del $\Delta y$.
+    Para calcular este valor hemos realizado los siguientes cálculos:\\
+    $$ y_{28} = \Delta y \cdot  0.28 + y_{0}  $$
+
+    Nos dirigimos a la gráfica para buscar el valor $y_{28}$ y nos fijamos en el valor de tiempo en el que se alcanza $y_{28}$ y calculamos $t_{28}$
+
+    $$ t_{28} = \Delta t_{28} - t_{0}$$
+
+    \item $t_{63}$ : Este valor hace referencia al tiempo que ha necesitado para alcanzar el 63\% del $\Delta y$
+\end{itemize}
+
+
+
+\subsection{Cálculo de parámetros}
+    \begin{itemize} 
+        \item Ziegler–Nichols PID \\
+        
+        \item Ziegler–Nichols PI \\
+        
+        \item Cohen–Coon PID
+    \end{itemize}
+
+\subsection{Pruebas en Mathlab}
+    \begin{itemize} 
+        \item Ziegler–Nichols PID \\
+        
+        \item Ziegler–Nichols PI \\
+        
+        \item Cohen–Coon PID
+    \end{itemize}
+    
+\subsection{Ensayo de lazo cerrado}
+    \begin{itemize} 
+        \item Ziegler–Nichols PID \\
+        
+        \item Ziegler–Nichols PI \\
+        
+        \item Cohen–Coon PID
+    \end{itemize}
 
 
 \section{Resultados}
