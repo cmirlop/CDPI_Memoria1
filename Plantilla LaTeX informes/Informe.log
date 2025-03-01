@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.1)  1 MAR 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.1)  1 MAR 2025 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,6 +1127,9 @@ L3 programming layer <2024-01-04>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Informe.out' has not changed.
 (rerunfilecheck)             Checksum: 6A842BFBEC2FCEA1C63DA6EFCB683BAC;4303.
 
@@ -1173,7 +1176,7 @@ al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Usuario/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Use
 rs/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.p
 fb>
-Output written on Informe.pdf (15 pages, 1314881 bytes).
+Output written on Informe.pdf (15 pages, 1314762 bytes).
 PDF statistics:
  474 PDF objects out of 1000 (max. 8388607)
  122 named destinations out of 1000 (max. 500000)

@@ -10,18 +10,18 @@
 \contentsline {section}{\numberline {4}Conclusiones y futuros trabajos}{3}{section.4}%
 \contentsline {section}{\numberline {5}Bibliografía}{3}{section.5}%
 \contentsline {section}{\numberline {6}Introducción}{3}{section.6}%
-\contentsline {section}{\numberline {7}Estructura del informe}{3}{section.7}%
+\contentsline {section}{\numberline {7}Estructura del informe}{4}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Resumen y palabras clave}{4}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Introducción}{4}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Metodología}{5}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Resultados obtenidos}{5}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Conclusiones y futuros trabajos}{5}{subsection.7.5}%
 \contentsline {subsection}{\numberline {7.6}Bibliografía}{5}{subsection.7.6}%
-\contentsline {section}{\numberline {8}Cómo afrontar la redacción del informe}{5}{section.8}%
+\contentsline {section}{\numberline {8}Cómo afrontar la redacción del informe}{6}{section.8}%
 \contentsline {section}{\numberline {9}Contenido del informe}{6}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Consideraciones generales}{6}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Figuras y tablas}{7}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Expresiones matemáticas y ecuaciones}{7}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.3}Expresiones matemáticas y ecuaciones}{8}{subsection.9.3}%
 \contentsline {section}{\numberline {10}Ejemplos}{9}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Figuras, tablas y referencias cruzadas}{9}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Ecuaciones}{10}{subsection.10.2}%
